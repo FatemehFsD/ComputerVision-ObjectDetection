@@ -1,4 +1,4 @@
-# socket-detectron2
+# Component detection
 
 Adaption of facebookresearch's detectron 2 to detect the chaotic objects in poor light conditions for the industrial arm robot Stäubli.
 
