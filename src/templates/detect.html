@@ -1,0 +1,16 @@
+<!doctype html>
+<title>Detected Socket</title>
+<div>
+    <img src="cache/{{timestamp}}/rgb_image.png"/>
+    <img src="cache/{{timestamp}}/depth_image.png"/>
+</div>
+
+<div>
+    <img src="cache/{{timestamp}}/masked_image.png"/>
+    <img src="cache/{{timestamp}}/marked_image.png"/>
+</div>
+{% if poses %}
+  <p>This is the detected socket pose: {{ poses }}</p>
+{% else %}
+  <h1>No socket pose found</h1>
+{% endif %}
