@@ -1,6 +1,6 @@
 # socket-detectron2
 
-Adaption of facebookresearch's detectron 2 and Giovanni Toffetti's milkingrobot script to detect the socket of a CCS2 plug.
+Adaption of facebookresearch's detectron 2 to detect the chaotic objects in poor light conditions for the industrial arm robot Stäubli.
 
 ## directories
 * configs/: diverse detectron2 configurations/models to choose from
